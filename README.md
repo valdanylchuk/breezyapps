@@ -19,6 +19,18 @@ Some depend on specific exports being available from your ESP-IDF firmware, usua
 eget valdanylchuk/breezyapps
 ```
 
+## Building from source
+
+POSIX versions for your Mac can be built literally like this:
+
+```
+gcc vi.c
+```
+
+For ESP32 builds, there is usually buildelf.sh included, with the build commands I used. You will need xtensa-esp32s3-elf-gcc from the xtensa-esp-elf toolkit. [Espressif IDF Tools documentation](https://docs.espressif.com/projects/esp-idf/en/stable/esp32/api-guides/tools/idf-tools.html) provides a good starting point on where to get and how to install that.
+
+You do not need a full ESP-IDF CMakeLists.txt and idf.py based setup for this.
+
 ## More BreezyBox apps elsewhere:
 
 - [xcc700](https://github.com/valdanylchuk/xcc700) - mini C compiler
