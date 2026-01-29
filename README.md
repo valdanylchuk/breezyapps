@@ -35,13 +35,13 @@ You do not need a full ESP-IDF CMakeLists.txt and idf.py based setup for this.
 
 - [xcc700](https://github.com/valdanylchuk/xcc700) - mini C compiler
 
-## Contributing
+## Contributing: help wanted!
 
-BreezyBox is an open system with no gatekeeping; you can install apps with eget from any github repo. Just publish a compatible .elf binary in your github release.
+The best help right now is to try out the system, and publish more examples. Even if you just blink a LED, or print some ASCII art, or vibe-code a text mode game, those are all valuable additions to the ecosystem right now. It would be great to demonstrate that it is an open platform with multiple repositories, by multiple developers, easy to get into and publish your own stuff, without asking or waiting for anyone's approval.
 
-Interesting apps from other repositories may be linked here at the repo owner's discretion.
+I will link some featured apps/repos here. Or if some app makes sense to include in this specific repo, we can discuss that.
 
-If you believe you made a great essential app that belongs in this specific repo, or an essential update to an existing one, feel free to open a pull request. No promises on response time or acceptance. This is a spare time hobby project.
+Also if you can share your full firmware project like I did with [my BreezyBox demo](https://github.com/valdanylchuk/breezydemo/), please do so. More full examples working on different dev boards, with different displays (or headless), can help others to get started.
 
 ## License
 This is free software under [MIT License](LICENSE).
